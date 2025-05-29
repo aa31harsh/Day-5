@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .navbar {
+      background-color: #000;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 5px 5px -5px #333;
+      border-bottom: 4px solid orange; /* Yellow border */
+    }
+
+    .navbar a {
+      color: white;
+      padding: 14px 24px;
+      text-decoration: none;
+      text-align: center;
+      font-size: 18px;
+      border-right: 1px solid white;
+      transition: background-color 0.3s;
+    }
+
+    .navbar a:last-child {
+      border-right: none;
+    }
+
+    .navbar a:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Product</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+    <a href="#">Users</a>
+    <a href="#">Login</a>
+  </div>
+
+</body>
+</html>
